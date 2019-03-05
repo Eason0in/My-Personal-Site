@@ -58,6 +58,7 @@ html, body {
  /* Homepage Background Image */
 
   .home_bg{
+      position: relative;
       background-image: url(https://picsum.photos/960/514/?random);
       background-position: center;
       background-size: cover;
