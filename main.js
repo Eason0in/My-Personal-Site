@@ -35,7 +35,7 @@ window.onscroll = (e) => {
 function goTop() {
   let currentLocation = parseFloat(window.pageYOffset || document.documentElement.scrollTop)
   // let upUnit = parseFloat(currentLocation / 30)
-  let upUnit=150
+  let upUnit = 150
   window.scrollTo(0, currentLocation - upUnit)
   if (currentLocation > 0) {
     setTimeout(goTop, 8)
